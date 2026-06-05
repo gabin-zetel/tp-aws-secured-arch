@@ -1,0 +1,9 @@
+variable "project_name"    { type = string }
+variable "bastion_cidr"    { type = string }
+variable "subnet_vpn_cidr" { type = string }
+variable "subnet_adm_cidr" { type = string }
+variable "subnet_dmz_cidr" { type = string }
+variable "az"              { type = string }
+variable "key_name"        { type = string }
+variable "admin_vpn_ip"    { type = string }
+variable "ami_id"          { type = string }
